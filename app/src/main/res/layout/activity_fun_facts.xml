@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff092b0"
+                tools:context="com.example.tawandama.funfacts.FunFactsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Did you know?"
+        android:textColor="#80ffffff"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/facttextView"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/factButton"
+        android:layout_marginBottom="160dp"
+        android:text="Ants stretch their legs when they wake up."
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="243dp"/>
+
+    <Button
+        android:id="@+id/factButton"
+        android:layout_width="321dp"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:background="@android:color/white"
+        android:text="Go to next"
+        android:textColor="#fff092b0"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="383dp"/>
+
+</RelativeLayout>
